@@ -1,9 +1,7 @@
 @import 'src/styles/global/colors';
 
 input {
-    min-height: 115px;
-    min-width: 260px;
-    width: 100px;
+    height: 115px;
     font-size: 35px;
     color: $primary-color;
     border: 1px solid $primary-color;
