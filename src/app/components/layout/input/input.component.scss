@@ -1,0 +1,14 @@
+@import 'src/styles/global/colors';
+
+input {
+    min-height: 115px;
+    min-width: 260px;
+    width: 100px;
+    font-size: 35px;
+    color: $primary-color;
+    border: 1px solid $primary-color;
+    border-radius: 70px;
+    padding: 0 55px;
+    background-color: transparent;
+    outline: none;
+}
