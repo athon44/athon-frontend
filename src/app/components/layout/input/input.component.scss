@@ -3,10 +3,14 @@
 input {
     height: 115px;
     font-size: 35px;
-    color: $primary-color;
-    border: 1px solid $primary-color;
+    color: $white-color;
+    border: 1px solid $white-color;
     border-radius: 70px;
     padding: 0 55px;
     background-color: transparent;
     outline: none;
+}
+
+::placeholder {
+    color: $white-color;
 }
