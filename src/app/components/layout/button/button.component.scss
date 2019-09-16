@@ -7,8 +7,12 @@ button {
     background-position: center;
     border-radius: 69px;
     border: 0;
+    font-size: 34px;
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 42px;
     cursor: pointer;
-    color: #6D6D6D;
+    color: $text-btn-color;
     opacity: 1;
     transition: background 0.8s;
 }
