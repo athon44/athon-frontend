@@ -9,6 +9,7 @@ import { EventsNearbyComponent } from './components/main/events-nearby/events-ne
 import { HomeComponent } from './components/main/home/home.component';
 import { ParticipantsListComponent } from './components/main/participants-list/participants-list.component';
 import { InputComponent } from './components/layout/input/input.component';
+import { ButtonComponent } from './components/layout/button/button.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { InputComponent } from './components/layout/input/input.component';
     ParticipantsListComponent,
     EventComponent,
     EventFormComponent,
-    InputComponent
+    InputComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
