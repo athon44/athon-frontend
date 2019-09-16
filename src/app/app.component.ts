@@ -6,6 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'athon-frontend';
+  
+  routes = [
+    { path: '/home', label: 'Home' },
+    { path: '/create', label: 'Create event' },
+    { path: '/event', label: 'My event' },
+    { path: '/nearby', label: 'Events nearby' },
+    { path: '/participants', label: 'Participants' },
+  ];
 
 }
