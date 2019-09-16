@@ -1,0 +1,25 @@
+@import 'src/styles/global/colors';
+
+button {
+    width: 463px;
+    height: 87px;
+    background: $grey-btn-color 0% 0% no-repeat padding-box;
+    background-position: center;
+    border-radius: 69px;
+    border: 0;
+    font-size: 34px;
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 42px;
+    cursor: pointer;
+    color: $text-btn-color;
+    opacity: 1;
+    transition: background 0.8s;
+}
+button:hover{ box-shadow: 0 0 11px rgba(33,33,33,.2); }
+button:active{
+    background-color: $white-color;
+    background-size: 100%;
+    transition: background 0s;
+}
+button:focus {outline:0;}
