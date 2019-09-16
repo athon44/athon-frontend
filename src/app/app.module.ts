@@ -10,6 +10,7 @@ import { HomeComponent } from './components/main/home/home.component';
 import { ParticipantsListComponent } from './components/main/participants-list/participants-list.component';
 import { InputComponent } from './components/layout/input/input.component';
 import { ButtonComponent } from './components/layout/button/button.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ButtonComponent } from './components/layout/button/button.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

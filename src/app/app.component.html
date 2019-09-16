@@ -1,1 +1,23 @@
-<router-outlet></router-outlet>
+<section class="hamburger-menu">
+  <nav role="navigation">
+    <section class="menu-toggle">
+      <input type="checkbox" #checkbox>
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul class="menu" *ngIf="routes">
+        <a *ngFor="let route of routes" (click)="checkbox.checked = false" [routerLink]="route.path"><li>{{ route.label }}</li></a>
+      </ul>
+    </section>
+  </nav>
+</section>
+<section class="user">
+  <img src="../assets/mock/user-avatar-mock.png" class="avatar">
+  <span class="name">user</span>
+</section>
+<section class="logo">
+  <img src="../assets/logo/logo.png">
+</section>
+<section class="content">
+  <router-outlet></router-outlet>
+</section>
