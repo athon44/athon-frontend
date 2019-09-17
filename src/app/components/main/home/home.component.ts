@@ -12,4 +12,11 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
+  doSomething() {
+
+  }
+  
+  doSomethingElse() {
+
+  }
 }
