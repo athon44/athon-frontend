@@ -1,11 +1,13 @@
-.container{
-
+.event-form{
+    
+   position: relative;
+   left: 140px;
     .input-name {
         margin-top: 70px;
     }
 
     .input-password {
-        margin-left: 60px;
+        margin-left: 50px;
     }
 
     div{
@@ -14,8 +16,8 @@
     
     app-button {
         position: relative;
-        top: 130px;
-        left: 354px;
+        top: 100px;
+        left: 180px;
     }
     
 }

@@ -11,6 +11,7 @@ import { ParticipantsListComponent } from './components/main/participants-list/p
 import { InputComponent } from './components/layout/input/input.component';
 import { ButtonComponent } from './components/layout/button/button.component';
 import { RouterModule } from '@angular/router';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,9 @@ import { RouterModule } from '@angular/router';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
